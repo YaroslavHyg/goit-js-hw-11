@@ -10,22 +10,23 @@ body {
   background-color: #fafafa;
   color: #212121;
   line-height: 1.5;
+  
 }
 
 header {
   backdrop-filter: blur(0.8px);
   background: linear-gradient(
     180deg,
-    #000000 10%,
-    rgba(0, 0, 0, 0.747) 70.3%,
-    rgba(0, 0, 0, 0) 100%
+    #903d3d 10%,
+    rgba(107, 240, 143, 0.747) 70.3%,
+    rgba(156, 114, 238, 0) 100%
   );
   position: fixed;
   display: flex;
   top: 0;
   left: 0;
   width: 100%;
-  height: 40px;
+  height: 70px;
   z-index: 100;
 }
 
@@ -37,7 +38,15 @@ header {
   margin-left: auto;
   margin-right: auto;
 }
-
+.input-style:hover,
+.input-style:focus{
+  background-color: rgb(13, 24, 218);
+    color: rgb(249, 244, 254);
+}
+.input-style{
+  border-radius: 8px;
+  height: 40px;
+}
 .photo-card {
   display: flex;
   flex-direction: column;
@@ -79,7 +88,18 @@ a {
   display: flex;
   gap: 20px;
   flex-wrap: wrap;
+  margin-top: 70px;
 }
 button {
   cursor: pointer;
+  border-radius: 8px;
+  height: 40px;
+  margin-top: 10px;
 }
+button:focus,
+button:hover{
+  background-color: rgb(13, 24, 218);
+  color: rgb(249, 244, 254);
+}
+/* .buton-load-more{
+} */

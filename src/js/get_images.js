@@ -15,7 +15,7 @@ Notiflix.Notify.init({
 const axios = require('axios').default;
 
 const BASE_URL = 'https://pixabay.com/api/';
-const API_KEY = '35659797-8cc42750c81fcd96097728ed9';
+const API_KEY = '36013972-c6f338427dd75b5103fcd3ed1';
 
 export async function getImages(name, page = 1) {
   const params = new URLSearchParams({
